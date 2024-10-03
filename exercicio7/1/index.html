@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API GitHub</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Buscar Usuários no GitHub</h1>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Digite o nome do usuário">
+            <button id="search-btn">Buscar</button>
+        </div>
+        <ul id="user-list"></ul>
+        <p id="message" class="hidden">Não foram encontrados usuários para esta pesquisa.</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
